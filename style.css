@@ -1,0 +1,67 @@
+.paper {
+  position: absolute;
+  width: 230px;
+  height: 250px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 45%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+body {
+  background-image: url("2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.font {
+  font-size: 28px;
+  position: absolute;
+  top: 46%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  z-index: -1000;
+}
+
+.j1 {
+  rotate: 5deg;
+}
+.j2 {
+  rotate: -3deg;
+}
+.j3 {
+  rotate: 3deg;
+}
+.j4 {
+  rotate: -4deg;
+}
+.j5 {
+  rotate: 2deg;
+}
+.j6 {
+  rotate: -2deg;
+}
+.j7 {
+  rotate: -1deg;
+}
+.j8 {
+  rotate: 1deg;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  rotate: -20deg;
+}
